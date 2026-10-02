@@ -34,12 +34,12 @@
 <body>
 
 <h1>POLITIQUE DE CONFIDENTIALITÉ</h1>
-<p class="updated">Dernière mise à jour : 28 septembre 2026</p>
+<p class="updated">Dernière mise à jour : 2 octobre 2026</p>
 
 <div class="intro-block">
 <p>Yana est une application mobile qui vous accompagne vers un objectif personnel, pendant un parcours de 14 à 90 jours, avec deux courtes séances audio par jour, écrites et lues par une intelligence artificielle à partir de ce que vous lui confiez.</p>
 <p>Cette politique explique quelles informations Yana collecte, pourquoi, avec qui elles sont partagées et quels sont vos droits. Yana est éditée par <strong>Stéphane Darryl Wamo Nkengue</strong>, exerçant sous le nom <strong>Yana</strong>, à Granby (Québec, Canada) (« nous »).</p>
-<p class="en-bref">En résumé : nous collectons ce qu'il faut pour écrire vos séances ; vos textes passent par OpenAI, avec votre accord explicite ; nous ne vendons rien, ne faisons pas de publicité et n'utilisons aucun outil de suivi tiers ; vous pouvez tout supprimer depuis l'app, à tout moment.</p>
+<p class="en-bref">En résumé : nous collectons ce qu'il faut pour écrire vos séances ; vos textes passent par OpenAI, et la voix de vos séances en français par ElevenLabs, avec votre accord explicite ; nous ne vendons rien, ne faisons pas de publicité et n'utilisons aucun outil de suivi tiers ; vous pouvez tout supprimer depuis l'app, à tout moment.</p>
 </div>
 
 <div class="toc">
@@ -47,7 +47,7 @@
   <ol>
     <li><a href="#collecte">Ce que nous collectons</a></li>
     <li><a href="#utilisation">Comment nous utilisons vos informations</a></li>
-    <li><a href="#ia">Intelligence artificielle : OpenAI</a></li>
+    <li><a href="#ia">Intelligence artificielle : OpenAI et ElevenLabs</a></li>
     <li><a href="#partage">Avec qui nous partageons vos informations</a></li>
     <li><a href="#conservation">Combien de temps nous conservons vos informations</a></li>
     <li><a href="#securite">Comment nous protégeons vos informations</a></li>
@@ -103,12 +103,13 @@
 <p>Nous ne vendons pas vos informations, nous ne les louons pas, nous ne les utilisons pas pour de la publicité et nous n'entraînons aucun modèle d'IA avec elles. Le contenu de vos séances est produit automatiquement, mais aucune décision automatisée n'a d'effet juridique ou comparable sur vous.</p>
 
 
-<h2 id="ia">3. INTELLIGENCE ARTIFICIELLE : OPENAI</h2>
+<h2 id="ia">3. INTELLIGENCE ARTIFICIELLE : OPENAI ET ELEVENLABS</h2>
 
-<p class="en-bref">En bref : vos textes sont envoyés à OpenAI pour écrire vos séances et produire la voix. L'app vous le demande explicitement avant le premier envoi.</p>
-<p>Yana utilise les services d'<strong>OpenAI</strong> (États-Unis) pour deux choses : écrire le texte de votre parcours et de vos séances, et le transformer en voix.</p>
+<p class="en-bref">En bref : vos textes sont envoyés à OpenAI pour écrire vos séances ; la voix de vos séances vient d'OpenAI en anglais et d'ElevenLabs en français. L'app vous le demande explicitement avant le premier envoi.</p>
+<p>Yana utilise les services d'<strong>OpenAI</strong> (États-Unis) pour écrire le texte de votre parcours et de vos séances, et pour le transformer en voix lorsque la séance est en anglais. Lorsque la séance est en français, la voix est produite par <strong>ElevenLabs</strong> (États-Unis).</p>
 <p><strong>Ce qui est envoyé à OpenAI</strong> : votre prénom, votre genre si vous l'avez donné (pour accorder correctement les phrases en français), le domaine et l'objectif, vos réponses aux questions de découverte, votre check-in (humeur, mission faite ou non, petite victoire), vos retours et mots libres récents, le plan de votre parcours et un résumé de vos dernières séances. Votre âge, votre adresse e-mail et vos informations d'abonnement ne lui sont pas envoyés.</p>
-<p><strong>Votre accord</strong> : avant le premier envoi, l'app vous explique ce qui part chez OpenAI et vous demande votre accord explicite. Sans cet accord, Yana ne peut pas écrire vos séances. Vous pouvez retirer votre accord en supprimant votre compte (section 8).</p>
+<p><strong>Ce qui est envoyé à ElevenLabs</strong> : uniquement le texte de chaque séance en français, pour le lire à voix haute. Ce texte peut contenir votre prénom et des éléments de votre objectif et de vos réponses. Rien d'autre ne lui est envoyé : ni votre âge, ni votre genre, ni votre e-mail, ni vos informations d'abonnement. Pour en savoir plus : <a href="https://elevenlabs.io/privacy-policy">politique de confidentialité d'ElevenLabs</a>.</p>
+<p><strong>Votre accord</strong> : avant le premier envoi, l'app vous explique ce qui part chez OpenAI et ElevenLabs et vous demande votre accord explicite. Si vous aviez accepté une version antérieure de cet accord, l'app vous le redemande une fois. Sans cet accord, Yana ne peut pas écrire vos séances. Vous pouvez retirer votre accord en supprimant votre compte (section 8).</p>
 <p><strong>Ce qu'en fait OpenAI</strong> : selon ses conditions pour les services destinés aux développeurs, OpenAI n'utilise pas ces données pour entraîner ses modèles et peut les conserver jusqu'à 30 jours pour détecter les abus, avant de les supprimer. Pour en savoir plus : <a href="https://openai.com/policies/privacy-policy">politique de confidentialité d'OpenAI</a>.</p>
 <p>Le contenu produit par une IA peut être imparfait. Il vous accompagne ; il ne constitue ni un conseil médical, psychologique, financier ou juridique, ni une promesse de résultat.</p>
 
@@ -119,7 +120,8 @@
 <table>
   <tr><th>Prestataire</th><th>Rôle</th><th>Données concernées</th><th>Lieu</th></tr>
   <tr><td>Supabase</td><td>Hébergement de la base de données, des comptes, des fichiers audio et du code serveur</td><td>Toutes les données de votre compte</td><td>Canada (région de Montréal)</td></tr>
-  <tr><td>OpenAI</td><td>Écriture des séances et synthèse de la voix</td><td>Voir section 3</td><td>États-Unis</td></tr>
+  <tr><td>OpenAI</td><td>Écriture des séances, et voix des séances en anglais</td><td>Voir section 3</td><td>États-Unis</td></tr>
+  <tr><td>ElevenLabs</td><td>Voix des séances en français</td><td>Le texte de chaque séance en français (section 3)</td><td>États-Unis</td></tr>
   <tr><td>RevenueCat</td><td>Gestion des abonnements</td><td>Identifiant interne de votre compte, historique d'achat</td><td>États-Unis</td></tr>
   <tr><td>Apple</td><td>Connexion avec Apple, paiements App Store, notifications, DeviceCheck, reconnaissance vocale de la dictée</td><td>Selon le service utilisé</td><td>États-Unis et autres</td></tr>
   <tr><td>Google</td><td>Connexion avec Google, si vous la choisissez</td><td>E-mail et nom</td><td>États-Unis et autres</td></tr>
@@ -132,7 +134,7 @@
 <ul>
   <li><strong>Tant que votre compte existe</strong> : votre profil, vos parcours (y compris terminés ou abandonnés, que vous pouvez relire), vos séances et leurs fichiers audio.</li>
   <li><strong>Suppression du compte</strong> : depuis <em>Profil › Supprimer mon compte</em>, votre compte, votre profil, vos parcours, vos séances, vos fichiers audio, vos retours et votre jeton de notification sont supprimés immédiatement et définitivement. Les événements de la mesure d'usage sont détachés de votre compte : il n'en reste que l'identifiant aléatoire d'installation, sans lien avec vous.</li>
-  <li><strong>Chez nos prestataires</strong> : OpenAI conserve au plus 30 jours ce qui lui a été envoyé (section 3). Apple et RevenueCat conservent l'historique de vos achats selon leurs propres obligations. Supprimer votre compte n'annule pas votre abonnement : faites-le dans les réglages de votre identifiant Apple.</li>
+  <li><strong>Chez nos prestataires</strong> : OpenAI conserve au plus 30 jours ce qui lui a été envoyé (section 3) ; ElevenLabs conserve le texte reçu selon sa propre politique. Apple et RevenueCat conservent l'historique de vos achats selon leurs propres obligations. Supprimer votre compte n'annule pas votre abonnement : faites-le dans les réglages de votre identifiant Apple.</li>
   <li><strong>Compte sans connexion</strong> : il est lié à votre appareil. Si vous désinstallez l'app sans l'avoir supprimé, écrivez-nous pour que nous le supprimions.</li>
 </ul>
 
